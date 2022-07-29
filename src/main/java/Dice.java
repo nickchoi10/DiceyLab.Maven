@@ -3,9 +3,11 @@ public class Dice {
 
 
     private int singleDie;
+
+
     public Dice(int numberOfDice){
-        this.singleDie=numberOfDice; //assign the value of parameter numberOfDice to singleDie
-                                    // method to call an object within the class.?
+        this.singleDie=numberOfDice;
+
     }
     public int tossAndSum(){
         int sum = 0;
@@ -14,4 +16,7 @@ public class Dice {
         }
         return sum;
     }
+
+
+
 }
