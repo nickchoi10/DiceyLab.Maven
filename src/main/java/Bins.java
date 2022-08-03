@@ -23,7 +23,7 @@ public int[] getBin(){
 public void printBins(){
    for(int i=0; i<=bin.length;i++){
 
-       System.out.println((i+2)+"\t"+bin[i] +"\t"+ bin[i]*.00001 );
+       System.out.println((i+2)+"\t"+bin[i] +"\t"+  String.format("%.2f", bin[i]*.00001 ));   //%. 2f
    }
 
 }
